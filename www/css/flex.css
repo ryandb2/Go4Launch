@@ -1,0 +1,56 @@
+.flexcontainer {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   margin: 0px;
+ }
+.flex-image
+{
+  margin: 0px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  max-width: 100%;
+  min-width: 100%;
+}
+.flex-item
+{
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  object-fit: contain;
+  justify-content: center;
+}
+.go4launch
+{
+  margin-top: 0px;
+}
+.image-overlay
+{
+  position: absolute;
+  width:100%;
+  height:33%;
+}
+li
+{
+  margin:0px;
+  padding:0px;
+}
+ul
+{
+  margin:0px;
+  padding:0px;
+}
+img
+{
+  margin:0px;
+  padding:0px;
+  overflow: hidden;
+}
